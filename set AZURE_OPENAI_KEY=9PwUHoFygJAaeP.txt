@@ -1,0 +1,7 @@
+set AZURE_OPENAI_KEY=9PwUHoFygJAaePCEbva5dCNiGSSGK0w8leEv7NZPDTYqeuVE8WEfJQQJ99BHACHYHv6XJ3w3AAAAACOGPLfu
+set AZURE_OPENAI_ENDPOINT=https://datas-met11sg7-eastus2.cognitiveservices.azure.com
+set AZURE_OPENAI_DEPLOYMENT=whyraw-gpt
+
+
+
+https://datas-met11sg7-eastus2.cognitiveservices.azure.com/openai/deployments/whyraw-gpt/chat/completions?api-version=2025-01-01-preview

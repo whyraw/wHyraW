@@ -210,6 +210,9 @@ def fuzzy_map_terms_to_columns(user_text: str, columns: list[str], cutoff: int =
 # helpers ended
 # -------------------- FastAPI app & CORS --------------------
 app = FastAPI(title="WhyRaw API", version="0.1.0")
+@app.get("/")
+def root():
+    return {"status": "ok", "service": "whyraw-api"}
 
 ALLOWED_ORIGINS = [
     "http://127.0.0.1:5500",   # if you use a local file server
